@@ -7,7 +7,7 @@ const Navbar = () => {
           <span>Pass</span>
           <span className="text-green-500"> Op /&gt;</span>
         </div>
-        <ul>
+        {/* <ul>
           <li className="flex gap-4">
             <a className="hover:font-bold" href="/">
               HOME
@@ -19,7 +19,16 @@ const Navbar = () => {
               CONTACT US
             </a>
           </li>
-        </ul>
+        </ul> */}
+        <button className="text-white bg-green-700 my-5 rounded-full flex items-center justify-center ring-white ring-1">
+          <img
+            className="invert p-1 w-10 "
+            // src="icons/github.png"
+            src=""
+            alt="github logo"
+          />
+          <span className="font-bold px-2">Github</span>
+        </button>
       </div>
     </nav>
   );
